@@ -1,13 +1,16 @@
 package test;
 
+import static model.TransactionType.EDUCATION;
+import static model.TransactionType.ENTERTAINMENT;
+import static model.TransactionType.FOOD;
+import static model.TransactionType.SHOPPING;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import model.Transaction;
 import model.TransactionSummary;
 import org.junit.Before;
 import org.junit.Test;
-
-import static model.TransactionType.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class TransactionSummaryTest {
 
